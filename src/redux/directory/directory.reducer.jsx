@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
     sections : [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          title: 'Black Clover',
+          imageUrl: 'https://c4.wallpaperflare.com/wallpaper/349/999/616/anime-black-clover-asta-black-clover-wallpaper-preview.jpg',
           id: 1,
-          linkUrl: 'hats'
+          linkUrl: 'shop/blackclover'
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          title: 'AOT',
+          imageUrl: 'https://wallpapermemory.com/uploads/418/mikasa-ackerman-background-hd-1600x900-205989.jpg',
           id: 2,
-          linkUrl: '/jackets'
+          linkUrl: 'shop/AOT'
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          title: 'fullMetal',
+          imageUrl: 'https://wallpaperaccess.com/full/1084967.jpg',
           id: 3,
-          linkUrl: '/sneakers'
+          linkUrl: 'shop/fullMetal'
         },
         {
-          title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          title: 'Naruto',
+          imageUrl: 'https://wallpaperaccess.com/full/302298.jpg',
           size: 'large',
           id: 4,
-          linkUrl: '/womens'
+          linkUrl: 'shop/naruto'
         },
         {
-          title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          title: 'onePiece',
+          imageUrl: 'https://wallpaperaccess.com/full/17370.jpg',
           size: 'large',
           id: 5,
-          linkUrl: '/mens'
+          linkUrl: 'shop/onepiece'
         }
       ]
 }

@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+ hats : {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+ sneakers : {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  jackets :{
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,14 +152,14 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  naruto : {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'naruto',
+    routeName: 'naruto',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
+        name: 'Baaaaaaalue Tanktop',
         imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
         price: 25
       },
@@ -201,10 +201,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  onePiece : {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'onePiece',
+    routeName: 'onePiece',
     items: [
       {
         id: 30,
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
